@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(214, 227, 214);
+    text-align: center;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    height: 70vh;
+}
+.game{
+   height: 60vmin; /* height: 60vmin; 1% of viewport Smaller dimension which mean 60% of our Vh */
+   width: 60vmin;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+   gap: 1.5vmin;
+}
+.btn{
+      height: 18vmin;
+      width: 18vmin;
+      border-radius: 1rem;
+      border: none;
+      font-size: 8vmin;
+      color: #b0413e;
+      box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+      background-color: #bebebe;
+}
+#reset-btn{
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #191913;
+    color: #fff;
+    border-radius: 1rem;
+    border: none;
+
+}
+#msg{
+    color: #bebebe;
+    font-size: 8vmin;
+}
+.msg-container{
+    height: 30vmin;
+}
+.new{
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #191913;
+    color: #fff;
+    border-radius: 1rem;
+    border: none;
+}
+.hide{
+    display: none;
+}
